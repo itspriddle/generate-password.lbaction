@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>lock.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.itspriddle.LaunchBar.action.GeneratePassword</string>
+	<key>CFBundleName</key>
+	<string>Generate Password</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.0</string>
+	<key>LBArgument</key>
+	<string>KeePass character set</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>KeePass character set</string>
+		<key>LBAuthor</key>
+		<string>Joshua Priddle</string>
+		<key>LBEmail</key>
+		<string>jpriddle@me.com</string>
+		<key>LBResult</key>
+		<string>Randomly generated password</string>
+		<key>LBSummary</key>
+		<string>Generates a random password. Uses a Ruby implementation of the KeePass password generator (https://keepass.info/help/base/pwgenerator.html).</string>
+		<key>LBTwitter</key>
+		<string>itspriddle</string>
+		<key>LBWebsiteURL</key>
+		<string>https://josh.fail/</string>
+	</dict>
+	<key>LBResult</key>
+	<string>Randomly generated password</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>2018</string>
+</dict>
+</plist>
