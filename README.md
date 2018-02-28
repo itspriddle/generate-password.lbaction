@@ -12,6 +12,12 @@ are required.
 [KeePass Password Generator]: https://keepass.info/help/base/pwgenerator.html
 [keepass-password-generator RubyGem]: https://github.com/johnbintz/keepass-password-generator
 
+## Installation
+
+Grab "Generate.Password.zip" from the latest release at
+<https://github.com/itspriddle/generate-password.lbaction/releases>. Unzip and
+open "Generate Password.lbaction" to install it.
+
 ## Usage
 
 To generate a password, invoke LaunchBar and select "Generate Password". After
