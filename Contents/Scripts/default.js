@@ -11,6 +11,8 @@ function run(format) {
 
   var password = JSON.parse(LaunchBar.execute(
     "/usr/bin/ruby",
+    "--disable=gems",
+    "--disable=rubyopt",
     "-W0",
     "generate-password.rb",
     format
